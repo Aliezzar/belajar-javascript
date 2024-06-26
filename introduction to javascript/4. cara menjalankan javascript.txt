@@ -1,0 +1,1 @@
+JavaScript dapat dijalankan di browser dengan memasukkan file skrip eksternal menggunakan scripttag, menulisnya di dalam halaman HTML menggunakan scripttag lagi, menjalankannya di konsol browser atau Anda juga dapat menggunakan REPL .

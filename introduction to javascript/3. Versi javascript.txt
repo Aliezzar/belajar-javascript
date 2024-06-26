@@ -1,0 +1,1 @@
+Bahasa ini telah berkembang melalui beberapa versi yaitu ES1, ES2, ES3, ES5, dan ES6 transformatif. Pembaruan ini memainkan peran penting dalam meningkatkan dan menstandardisasi JavaScript, menjadikannya digunakan secara luas dan berharga dalam bidang pengembangan web yang selalu berubah.
