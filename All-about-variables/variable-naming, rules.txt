@@ -1,0 +1,7 @@
+Nama variabel harus mengidentifikasi variabel Anda secara akurat. Saat Anda membuat nama variabel yang bagus, kode JavaScript Anda menjadi lebih mudah dipahami dan digunakan. Memberi nama variabel dengan benar sangatlah penting. JavaScript juga memiliki beberapa aturan dalam hal penamaan variabel
+
+contoh menggunakan camelcase:
+namaInduk
+iniBisa
+kitaBisa
+mantapAnjay

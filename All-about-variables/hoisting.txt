@@ -1,0 +1,15 @@
+Hoisting adalah mekanisme di JavaScript di mana deklarasi variabel dan fungsi secara otomatis dipindahkan ke bagian atas konteks eksekusi mereka selama fase kompilasi, sebelum kode benar-benar dijalankan. Hal ini berarti bahwa variabel dan fungsi dapat digunakan sebelum dideklarasikan dalam kode.
+
+contoh:
+console.log(a); 
+var a = 5;
+console.log(a);
+
+pada console log, akan memunculkan :
+undefined 
+5
+karena dibalik layar, kodenya diproses seperti ini:
+var a;
+console.log(a); // undefined
+a = 5;
+console.log(a); // 5

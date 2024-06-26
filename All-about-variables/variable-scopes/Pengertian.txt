@@ -1,0 +1,44 @@
+Variable Scopes di JavaScript
+Cakupan variabel (variable scope) adalah konsep yang menentukan di mana variabel dapat diakses atau dilihat dalam kode. Ada tiga jenis utama cakupan variabel di JavaScript:
+
+Global Scope
+
+contoh:
+var globalVar = "I am a global variable";
+
+function exampleFunction() {
+    console.log(globalVar); // Bisa mengakses globalVar
+}
+
+exampleFunction(); // "I am a global variable"
+console.log(globalVar); // "I am a global variable"
+
+Variabel yang dideklarasikan di luar fungsi atau blok memiliki cakupan global.
+Variabel global dapat diakses dari mana saja dalam kode.
+
+Function Scope
+
+contoh:
+function exampleFunction() {
+    var functionVar = "I am a function variable";
+    console.log(functionVar); // Bisa mengakses functionVar
+}
+
+exampleFunction(); // "I am a function variable"
+console.log(functionVar); // ReferenceError: functionVar is not defined
+
+Variabel yang dideklarasikan di dalam fungsi memiliki cakupan fungsi.
+Variabel fungsi hanya dapat diakses di dalam fungsi tersebut.
+
+Block Scope
+
+contoh:
+if (true) {
+    let blockVar = "I am a block variable";
+    console.log(blockVar); // Bisa mengakses blockVar
+}
+
+console.log(blockVar); // ReferenceError: blockVar is not defined
+
+Variabel yang dideklarasikan di dalam blok (misalnya di dalam {}) memiliki cakupan blok.
+Variabel blok hanya dapat diakses di dalam blok tersebut.

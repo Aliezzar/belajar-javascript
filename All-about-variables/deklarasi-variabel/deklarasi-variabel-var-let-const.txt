@@ -1,0 +1,11 @@
+var:
+var x = 10;
+Gunakan var jika Anda membutuhkan cakupan fungsi atau global dan tidak masalah dengan hoisting.
+
+let:
+let y = 20;
+Gunakan let jika Anda membutuhkan cakupan blok dan ingin menghindari masalah hoisting
+
+const: 
+const z = 30;
+Gunakan const jika Anda ingin mendeklarasikan variabel yang nilainya tidak akan diubah dan juga ingin cakupan blok serta menghindari masalah hoisting.

@@ -1,0 +1,9 @@
+Untuk menggunakan variabel dalam JavaScript, pertama-tama kita perlu membuatnya yaitu mendeklarasikan sebuah variabel. Untuk mendeklarasikan variabel, kita menggunakan salah satu kata kunci var, let, atau const.
+
+pertama tama, kita harus mengetahui
+ 
+contoh:
+var name = 'John';
+console.log(name); 
+
+akan menghasilkan output : John

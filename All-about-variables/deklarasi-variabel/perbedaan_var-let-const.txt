@@ -1,0 +1,3 @@
+var: Nilai dari variabel var dapat diubah setelah dideklarasikan.
+let: Nilai dari variabel let dapat diubah setelah dideklarasikan.
+const: Nilai dari variabel const tidak dapat diubah setelah dideklarasikan. Namun, jika variabel const mengacu pada objek atau array, properti dari objek atau elemen dari array tersebut masih bisa diubah.
